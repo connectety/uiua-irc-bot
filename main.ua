@@ -48,7 +48,7 @@ Listener ← |1.0 ◌ ⍢(
 )
 
 SafeFetch ← |0 (⍢(⍣(°utf₈ &fetch DataUrl ◌|&sl 0.5 &p "fetch errored")|≍"") "")
-GetState ← |0 (°□ get □"state" °json SafeFetch)
+GetState  ← |0 (°□ get □"state" °json SafeFetch)
 
 (⨬&tcpc &tlsc Tls) Server
 

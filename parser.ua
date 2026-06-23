@@ -1,5 +1,3 @@
-# Experimental!
-
 ~IRCLine {
   Name ← ""
   Host ← ""
@@ -38,7 +36,7 @@ Parse ← |1 IRCLine!(
 
   ⊙(°⊸Cmd ⌵) ⍣°˜$"_ _" ""
   °⊸Args Param
-) ⯾₁∞
+)
 
 ┌─╴test
   $ :vindobona.hackint.org NOTICE * :*** Checking Ident
