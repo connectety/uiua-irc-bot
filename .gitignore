@@ -1,2 +1,6 @@
 **/*.cfg
+
 uiua-modules/*
+
+result
+result-*
